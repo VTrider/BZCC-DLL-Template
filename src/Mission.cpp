@@ -60,7 +60,7 @@ void DLLAPI DeletePlayer(DPID id)
 
 EjectKillRetCodes DLLAPI PlayerEjected(Handle DeadObjectHandle)
 {
-	return DLLHandled;
+	return DoEjectPilot;
 }
 
 EjectKillRetCodes DLLAPI ObjectKilled(Handle DeadObjectHandle, Handle KillersHandle)
