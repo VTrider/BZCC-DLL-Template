@@ -10,7 +10,7 @@ MisnExport misnExport{};
 
 void DLLAPI InitialSetup()
 {
-	
+    PrintConsoleMessage("Hello DLL Mission!");
 }
 
 bool DLLAPI Save(bool missionSave)
